@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TalkToMe</string>
+    <string name="are_you_a_new_user">Вы новый пользователь?</string>
+    <string name="register">Зареристрироваться</string>
+    <string name="registration">Регистрация</string>
+    <string name="you_have_account">Если уже есть аккаунт</string>
+    <string name="login">Войти</string>
+    <string name="entry">Вход</string>
+    <string name="proceed">Продолжить</string>
+
+    <string name="successful_login">Успешный вход</string>
+    <string name="e_mail">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="registration_was_successful">Регистрация прошла успешно!</string>
+    <string name="enter_your_email_address">Введите электронную почту</string>
+    <string name="enter_the_correct_email">Введите корректный email</string>
+    <string name="enter_the_password">Введите пароль</string>
+    <string name="min_password_length">Пароль должен содержать не менее 6 символов</string>
+    <string name="enter_phone_number">Введите номер телефона</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="incorrect_email_format">Некоректный формат электроной почты.</string>
+    <string name="invalid_password">Неверный пароль.</string>
+    <string name="authentication_error">Ошибка аутентификации</string>
+    <string name="the_user_was_not_found">Пользователь не найден. Зарегистрируйтесь.</string>
+    <string name="this_email_is_already_in_use">Этот email уже используется.</string>
+    <string name="mistake">Ошибка:</string>
+
+    <string name="chat">Чат</string>
+    <string name="phone_numbers">Номера телефонов</string>
+    <string name="call_history">История звонков</string>
+
+    <string name="name">Имя</string>
+    <string name="last_message">Последнее сообщение</string>
+    <string name="timestamp">time</string>
+
+    <string name="enter_a_message">Введите сообщение</string>
+    <string name="to_send">Отправить</string>
+    <string name="element_text" />
+
+    <string name="name_profile">Имя пользователя</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="phone_number_with_code">Номер телефона (начните ввод с +7)</string>
+    <string name="audio_call">Аудиозвонок</string>
+    <string name="video_call">Видеозвонок</string>
+    <string name="over_call">Завершить звонок</string>
+
+    <string name="Write">Написать</string>
+    <string name="Invite">Пригласить</string>
+
+    <string name="document_successfully_with_id">Документ успешно добавлен с ID: </string>
+    <string name="chat_successfully_with_id">Чат успешно добавлен с ID: </string>
+    <string name="error_add_document">Ошибка добавления документа</string>
+    <string name="error_add_chat">Ошибка добавления чата</string>
+    <string name="chat_updated_successfully">Чат обновлён успешно.</string>
+    <string name="chat_update_error">Ошибка обновления чата</string>
+    <string name="chat_with">Чат с </string>
+    <string name="number_n">
+        Номер: </string>
+    <string name="WhatsApp_not_installed">WhatsApp не установлен</string>
+    <string name="error_receiving_messages">Ошибка получения сообщений: </string>
+    <string name="Hello_download_app_from_link">Привет! Скачай приложение TalkToMe по ссылке: https://...</string>
+    <string name="share_via">Поделиться через</string>
+
+    <string name="app_needs_access_contacts">Приложению нужен доступ к контактам</string>
+
+</resources>

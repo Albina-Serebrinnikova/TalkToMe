@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634757857429",
+    "project_id": "talktome-da4c7",
+    "storage_bucket": "talktome-da4c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634757857429:android:0eee9adae151e0aec35b9c",
+        "android_client_info": {
+          "package_name": "com.example.talktome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmxbURTif0a4XiDCpYXk-bHFJHjYgn9Fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

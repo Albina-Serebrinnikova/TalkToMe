@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/VeryDarkGray">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="30sp"
+            android:layout_height="25sp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15sp"
+            android:layout_toEndOf="@+id/back"
+            android:background="@drawable/user" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10sp"
+            android:layout_toEndOf="@+id/icon"
+            android:text="@string/name"
+            android:textColor="@color/TheSeaWave"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/menu" />
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5sp"
+            android:layout_toStartOf="@+id/menu"
+            android:background="@drawable/phone" />
+
+        <ImageButton
+            android:id="@+id/callVideo"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10sp"
+            android:layout_toStartOf="@+id/call"
+            android:background="@drawable/videocamerablue" />
+
+    </RelativeLayout>
+
+    <RecyclerView
+        android:id="@+id/recyclerViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:clipToPadding="false"
+        android:padding="10sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <EditText
+            android:id="@+id/eTMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/LimeGreen"
+            android:hint="@string/enter_a_message"
+            android:inputType="textMultiLine"
+            android:minHeight="48sp"
+            android:padding="10dp"
+            android:textColor="@color/StoneGray"
+            android:textColorHint="@color/DarkGray" />
+
+        <ImageButton
+            android:id="@+id/imBtnSend"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_marginStart="7sp"
+            android:background="@drawable/send" />
+
+    </LinearLayout>
+
+</RelativeLayout>

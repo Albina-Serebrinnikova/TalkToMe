@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/VeryDarkGray"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75sp"
+        android:text="@string/app_name"
+        android:textColor="@color/Blue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textAuthorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you_a_new_user"
+        android:textColor="@color/Azure"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65sp"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/MintCream"
+        app:layout_constraintEnd_toEndOf="@+id/textAuthorization"
+        app:layout_constraintStart_toStartOf="@+id/textAuthorization"
+        app:layout_constraintTop_toBottomOf="@+id/textAuthorization" />
+
+    <TextView
+        android:id="@+id/textYouHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160sp"
+        android:text="@string/you_have_account"
+        android:textColor="@color/Azure"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonRegistration"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="@+id/buttonRegistration"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegistration" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65sp"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:backgroundTint="@color/MintCream"
+        app:layout_constraintEnd_toEndOf="@+id/textYouHaveAccount"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textYouHaveAccount"
+        app:layout_constraintTop_toBottomOf="@+id/textYouHaveAccount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

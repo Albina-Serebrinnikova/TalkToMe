@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="VeryDarkGray">#141414</color>
+    <color name="Gray">#2C2C2F</color>
+    <color name="DarkGray">#595959</color>
+    <color name="StoneGray">#848484</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Blue">#0433DC</color>
+    <color name="Azure">#0077BE</color>
+    <color name="CobaltBlue">#0047AB</color>
+    <color name="TheSeaWave">#00A8E8</color>
+    <color name="NightBlue">#001F3F</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="MintCream">#95FFCB</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="Plum">#8E4585</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="DeepPurple">#660099</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="RoyalPurple">#7851A9</color>
+    <color name="ElectricIndigo">#6F00FF</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="Iris">#571B7E</color>
+    <color name="ElectricPurple">#BF00FF</color>
+    <color name="PsychedelicPurple">#AB47BC</color>
+    <color name="PinkLavender">#FDB0F5</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="CanaryYellow">#FFFF99</color>
+    <color name="Saffron">#F4C430</color>
+    <color name="Red">#FF0000</color>
+</resources>
